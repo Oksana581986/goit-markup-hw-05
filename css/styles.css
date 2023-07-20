@@ -866,7 +866,7 @@ fill: var(--iris-color);
   font-weight: 400;
   line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #2E2F42;
+  color: rgba(46, 47, 66, 0.40);
 }
 
 .modal-input:focus::placeholder {
@@ -1004,5 +1004,5 @@ border-color: var(--ocean-color);
 }
 
 .modal-check:focus + .check-text .checkbox-modal {
-  border-color: var(--ocean-color);
+border-color: var(--ocean-color);
 }
