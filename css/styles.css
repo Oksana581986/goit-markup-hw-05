@@ -999,10 +999,10 @@ overflow: hidden;
 .modal-check:checked + .check-text .checkbox-modal {
 background-color: var(--ocean-color);
 border: none;
-fill: var(--white-color);
+fill: var(--cloud-color);
 border-color: var(--ocean-color);
 }
 
 .modal-check:focus + .check-text .checkbox-modal {
-border-color: var(--ocean-color);
+  border-color: var(--ocean-color);
 }
