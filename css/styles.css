@@ -580,10 +580,6 @@ transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   gap: 24px;
 }
 
-.footer-label {
-
-}
-
 .subscribe-text {
   font-weight: 500;
   font-size: 16px;
@@ -1000,13 +996,13 @@ clip: rect(0 0 0 0);
 overflow: hidden;
 }
 
-.modal-check:checked + .checkbox-modal {
+.modal-check:checked + .check-text .checkbox-modal {
 background-color: var(--ocean-color);
 border: none;
-fill: var(--cloud-color);
+fill: var(--white-color);
+border-color: var(--ocean-color);
 }
 
-.modal-check:focus + .checkbox-modal {
+.modal-check:focus + .check-text .checkbox-modal {
 border-color: var(--ocean-color);
-background-color: var(--ocean-color);
 }
